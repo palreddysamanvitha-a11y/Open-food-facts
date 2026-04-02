@@ -1,0 +1,12 @@
+create table foods (
+  id uuid primary key default uuid_generate_v4(),
+  name text,
+  calories float,
+  protein float,
+  sugar float,
+  fat float,
+  fiber float,
+  carbs float,
+  image text,
+  funFact text
+);
